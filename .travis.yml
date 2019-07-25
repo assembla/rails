@@ -68,6 +68,8 @@ matrix:
     - rvm: 2.5.3
       env: "GEM=actionview:ujs"
     - rvm: 2.5.3
+      env: "GEM=railties"
+    - rvm: 2.5.3
       env:
         - "GEM=activerecord:mysql2 MYSQL=mariadb"
       before_install:
