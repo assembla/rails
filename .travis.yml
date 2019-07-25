@@ -56,6 +56,7 @@ script: 'ci/travis.rb'
 env:
   global:
     - "JRUBY_OPTS='--dev -J-Xmx1024M'"
+    - "PARALLEL_WORKERS"=$(nproc)
   matrix:
     - "GEM=activerecord:sqlite3"
     - "GEM=activerecord:postgresql"
