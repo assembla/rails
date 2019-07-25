@@ -1,6 +1,7 @@
 dist: bionic
 language: ruby
 sudo: false
+group: stable vm_type=n1-highmem-4
 
 cache:
   directories:
